@@ -18,7 +18,7 @@ name = "actix_rt"
 path = "src/lib.rs"
 
 [dependencies]
-actix-macros = "0.1.0-alpha.1"
+actix-macros = { path = "../actix-macros" }
 actix-threadpool = "0.2"
 futures = "0.3.1"
 
